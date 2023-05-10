@@ -539,7 +539,7 @@ textarea {
 }
 
 .btn.btn-desactivado {
-  cursor: not-allowed;
+  /* cursor: not-allowed; */ /* esto hace que no funcione el cursor*/
   background-color: #1d4b72;
 }
 
