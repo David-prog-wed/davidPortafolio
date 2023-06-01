@@ -6,8 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>David Eduardo Celis | Portafolio</title>
+  <meta name="description" content="Página Web Portafolio" />
+  <link rel="preload" href="css/normalize.css" as="style" />
   <link rel="stylesheet" href="./css/normalize.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="preload" href="css/style.css" as="style" />
   <link rel="stylesheet" href="./css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,7 +41,7 @@
 
     <div class="contenido-hero">
 
-      <img src="img/logo.png" alt="imagen David" class="contenido-hero__img">
+      <img src="img/logo.png" alt="imagen David Celis" class="contenido-hero__img">
 
       <div class="contenido-hero__texto">
         <p>Hola, mi nombre es David Celis y soy desarrollador Front-End.
@@ -57,7 +60,7 @@
             href="./pdf/Green and Grey Systems Analyst Technology Resume.pdf">Mi CV
           </a>
 
-          <a class="contenido-hero__enlace" target="_blank" href="">Certificados
+          <a class="contenido-hero__enlace" target="_blank" href="#contacto">Certificados
           </a>
 
         </nav>
@@ -72,7 +75,7 @@
     </h2>
 
     <div class="sobre-mi__contenido">
-      <img src="img/diseño-web.jpg" alt="imagen sobre Daniel Posadas" class="sobre-mi__img">
+      <img src="img/diseño-web.jpg" alt="imagen sobre David Celis" class="sobre-mi__img">
 
       <p class="sobre-mi__parrafo">
         Hola, mi nombre es <span>David Eduardo Celis</span> y soy
@@ -475,7 +478,7 @@
 
         <div class="campo">
           <label class="form-label" for="nombre">Nombre</label>
-          <input id="nombre" name="nombre" class="form-input" type="text" placeholder="Tu nombre" minlength="5">
+          <input id="nombre" name="nombre" class="form-input" type="text" placeholder="Tu nombre" required />
         </div>
 
         <div></div>
@@ -483,17 +486,17 @@
         <div class="campo">
           <label class="form-label" for="email">Email</label>
           <input id="email" name="email" class="form-input" type="email"
-            placeholder="Email Destino, ej: correo@empresa.com">
+            placeholder="Email Destino, ej: correo@empresa.com" required/>
         </div>
 
         <div></div>
 
         <div class="campo">
           <label class="form-label" for="asunto">Asunto</label>
-          <input id="asunto" name="asunto" class="form-input" type="text" placeholder="Asunto" minlength="10">
+          <input id="asunto" name="asunto" class="form-input" type="text" placeholder="Asunto" minlength="10"  required/>
         </div>
 
-        <div class="form-label"></div>
+        <div></div>
 
         <div class="campo">
           <label class="form-label" for="mensaje">Mensaje</label>
