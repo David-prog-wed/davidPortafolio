@@ -4,8 +4,8 @@
   --claro: #f2f2f2;
   --gris: #525050;
 
-  --fuente-principal: 'Oswald', sans-serif;
-  --fuente-titulos: 'Roboto', sans-serif;
+  --fuente-principal: "Oswald", sans-serif;
+  --fuente-titulos: "Roboto", sans-serif;
 }
 
 html {
@@ -72,17 +72,43 @@ li {
 }
 
 .titulo::after {
-  content: '>';
+  content: ">";
   color: #99b4bf;
 }
 
 .titulo::before {
-  content: '<';
+  content: "<";
   color: #99b4bf;
 }
 
 .error::placeholder {
   color: rgb(245, 143, 143);
+}
+
+.bg-red-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(239, 68, 68, var(--tw-bg-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.margin-left {
+  margin-left: 10rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .succes {
@@ -103,7 +129,7 @@ li {
   text-align: center;
   line-height: 1.2;
   color: var(--gris);
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   margin-bottom: 1rem;
 }
 
@@ -507,6 +533,10 @@ textarea {
   padding: 1rem;
 }
 
+.boton {
+  float: right;
+}
+
 .btn {
   padding: 1rem 4rem;
   border: none;
@@ -539,7 +569,7 @@ textarea {
 }
 
 .btn.btn-desactivado {
-  /* cursor: not-allowed; */ /* esto hace que no funcione el cursor*/
+  cursor: not-allowed; /*esto hace que no funcione el cursor*/
   background-color: #1d4b72;
 }
 
